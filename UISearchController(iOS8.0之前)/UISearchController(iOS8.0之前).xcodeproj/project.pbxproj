@@ -10,11 +10,11 @@
 		0410084A1D1D547C008BCFD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041008491D1D547C008BCFD4 /* main.m */; };
 		0410084D1D1D547C008BCFD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0410084C1D1D547C008BCFD4 /* AppDelegate.m */; };
 		041008501D1D547C008BCFD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0410084F1D1D547C008BCFD4 /* ViewController.m */; };
-		041008531D1D547C008BCFD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041008511D1D547C008BCFD4 /* Main.storyboard */; };
 		041008551D1D547C008BCFD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041008541D1D547C008BCFD4 /* Assets.xcassets */; };
 		041008581D1D547C008BCFD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041008561D1D547C008BCFD4 /* LaunchScreen.storyboard */; };
 		041008631D1D547C008BCFD4 /* UISearchController_iOS8_0___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041008621D1D547C008BCFD4 /* UISearchController_iOS8_0___Tests.m */; };
 		0410086E1D1D547C008BCFD4 /* UISearchController_iOS8_0___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0410086D1D1D547C008BCFD4 /* UISearchController_iOS8_0___UITests.m */; };
+		0410087C1D1D5534008BCFD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0410087B1D1D5534008BCFD4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		0410084C1D1D547C008BCFD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0410084E1D1D547C008BCFD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0410084F1D1D547C008BCFD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		041008521D1D547C008BCFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		041008541D1D547C008BCFD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041008571D1D547C008BCFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041008591D1D547C008BCFD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		041008691D1D547C008BCFD4 /* UISearchController(iOS8.0之前)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UISearchController(iOS8.0之前)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0410086D1D1D547C008BCFD4 /* UISearchController_iOS8_0___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UISearchController_iOS8_0___UITests.m"; sourceTree = "<group>"; };
 		0410086F1D1D547C008BCFD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0410087B1D1D5534008BCFD4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 				0410084C1D1D547C008BCFD4 /* AppDelegate.m */,
 				0410084E1D1D547C008BCFD4 /* ViewController.h */,
 				0410084F1D1D547C008BCFD4 /* ViewController.m */,
-				041008511D1D547C008BCFD4 /* Main.storyboard */,
+				0410087B1D1D5534008BCFD4 /* Main.storyboard */,
 				041008541D1D547C008BCFD4 /* Assets.xcassets */,
 				041008561D1D547C008BCFD4 /* LaunchScreen.storyboard */,
 				041008591D1D547C008BCFD4 /* Info.plist */,
@@ -243,9 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0410087C1D1D5534008BCFD4 /* Main.storyboard in Resources */,
 				041008581D1D547C008BCFD4 /* LaunchScreen.storyboard in Resources */,
 				041008551D1D547C008BCFD4 /* Assets.xcassets in Resources */,
-				041008531D1D547C008BCFD4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +308,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		041008511D1D547C008BCFD4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				041008521D1D547C008BCFD4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		041008561D1D547C008BCFD4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
